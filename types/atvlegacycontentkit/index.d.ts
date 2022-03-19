@@ -12,7 +12,7 @@
  * See https://developer.apple.com/documentation/storekit/skpaymenttransactionstate for more information.
  */
 // tslint:disable-next-line:strict-export-declare-modifiers
-declare enum SKPaymentTransactionState {
+export const enum SKPaymentTransactionState {
     /**
      * A transaction that is being processed by the App Store.
      */
@@ -2039,7 +2039,7 @@ declare interface ATVHttpRequest {
  * The possible values of the XHR ready state.
  */
 // tslint:disable-next-line:strict-export-declare-modifiers
-declare enum XMLHttpRequestState {
+export const enum XMLHttpRequestState {
     /**
      * The client has been created, but not opened.
      */
