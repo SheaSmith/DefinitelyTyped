@@ -1069,7 +1069,7 @@ declare namespace atv {
     /**
      * The credentials saved at the last login.
      */
-    const sharedCredentials: ATVSavedCredentials | null;
+    const savedCredentials: ATVSavedCredentials | null;
 
     /**
      * Several listeners for dealing with FairPlay encrypted content.
